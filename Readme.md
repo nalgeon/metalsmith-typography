@@ -1,5 +1,5 @@
 
-# metalsmith-typography
+# metalsmith-typography [![Build Status](https://travis-ci.org/algenon/metalsmith-typography.svg?branch=master)](https://travis-ci.org/algenon/metalsmith-typography)
 
   A Metalsmith plugin to enhance typography in HTML — abbreviations, quotes and dashes, non-breaking spaces after prepositions. Based on [Richtypo.js](https://github.com/sapegin/richtypo.js).
 
