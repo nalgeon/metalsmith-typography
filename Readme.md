@@ -9,7 +9,7 @@
 
 ## CLI Usage
 
-  Install via npm and then add the `metalsmith-typography` key to your `metalsmith.json` plugins with `lang` option (`en` and `ru` supported, `en` is the default):
+  Install via npm and then add the `metalsmith-typography` key to your `metalsmith.json` plugins:
 
 ```json
 {
@@ -34,6 +34,16 @@ metalsmith.use(typography({
 ```
 
   Call it after the `metalsmith-markdown` plugin, so that HTML files are available.
+
+## Options
+
+  `lang` determines which language to use. `en` and `ru` supported, `en` is the default.
+
+  `rules` is an array of typographic rules to apply. Default is
+```javascript
+['save_tags', 'cleanup_before', 'lite', 'spaces_lite', 'spaces', 'quotes', 'abbrs', 'cleanup_after', 'restore_tags']
+```
+  See [Richtypo.js documentation](https://github.com/sapegin/richtypo.js) for the list of available rules.
 
 ## License
 
