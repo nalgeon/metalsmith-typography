@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-typography",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Metalsmith plugin to enhance typography — hanging punctuation, abbreviations, quotes and dashes",
   "main": "lib/index.js",
   "scripts": {
