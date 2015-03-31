@@ -1,7 +1,7 @@
 
 # metalsmith-typography
 
-  A Metalsmith plugin to enhance typography in HTML — hanging punctuation, abbreviations, quotes and dashes. Based on [Richtypo.js](https://github.com/sapegin/richtypo.js).
+  A Metalsmith plugin to enhance typography in HTML — abbreviations, quotes and dashes, non-breaking spaces after prepositions. Based on [Richtypo.js](https://github.com/sapegin/richtypo.js).
 
 ## Installation
 
